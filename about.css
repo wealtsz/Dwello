@@ -1,4 +1,4 @@
-*,
+    *,
 *::before,
 *::after {
     margin: 0;
@@ -23,6 +23,8 @@ body {
     color: var(--dark);
     background: #fff;
 }
+
+
 /* ── HEADER ── */
 
 .site-header {
