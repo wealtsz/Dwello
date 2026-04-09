@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dwello — Europe's Premier Property Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #171717;
+            background: #fff;
+        }
+        
+        .nav-row {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: #fff;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 16px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .nav-link {
+            color: #6b7280;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover {
+            color: #1a3a5c;
+            background: #f3f4f6;
+        }
+        
+        .nav-link.active {
+            color: #1a3a5c;
+            background: #e8eef5;
+        }
+        
+        .hero {
+            padding: 120px 40px 80px;
+            text-align: center;
+            background: linear-gradient(135deg, #1a3a5c 0%, #0f2640 100%);
+            color: white;
+        }
+        
+        .hero h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .section {
+            padding: 80px 40px;
+        }
+        
+        .section h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 36px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1a3a5c;
+        }
+        
+        .stat-label {
+            font-size: 18px;
+            color: #6b7280;
+            margin-top: 8px;
+        }
+        
+        .team {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .team-member {
+            background: #f9fafb;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        
+        .team-member h3 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        
+        .team-member p {
+            color: #6b7280;
+        }
+        
+        .site-footer {
+            background: #1a3a5c;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="nav-row">
+        <a href="index.html" class="text-2xl font-serif text-navy">Dwell<span class="text-gold">o</span></a>
+        <nav class="flex items-center">
+            <a href="buy.html" class="nav-link">Buy</a>
+            <a href="rent.html" class="nav-link">Rent</a>
+            <a href="sell.html" class="nav-link">Sell</a>
+            <a href="listings.php" class="nav-link">Listings</a>
+            <a href="map-search.html" class="nav-link">Map Search</a>
+            <a href="agents.php" class="nav-link">Agents</a>
+            <a href="about.html" class="nav-link active">About</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>About Dwello</h1>
+        <p>Europe's premier property partner, connecting you with exceptional real estate opportunities across the continent.</p>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section">
+        <div class="max-w-4xl mx-auto">
+            <h2>Our Story</h2>
+            <p class="text-lg leading-relaxed mb-8">Founded in 2020, Dwello emerged from a simple mission: to make property transactions in Europe as seamless and transparent as possible. Our team of experienced professionals brings together deep market knowledge, cutting-edge technology, and
+                a client-first approach to deliver exceptional results.</p>
+            <p class="text-lg leading-relaxed">With offices across major European cities and a network of trusted partners, we provide comprehensive real estate services including buying, selling, renting, investment opportunities, and property valuation.</p>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section" style="background: #f9fafb;">
+        <div class="max-w-6xl mx-auto">
+            <h2>By the Numbers</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Properties Sold</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Expert Agents</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">European Cities</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section">
+        <div class="max-w-6xl mx-auto">
+            <h2>Meet Our Leadership</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&crop=face" alt="CEO">
+                    <h3>Sarah Johnson</h3>
+                    <p>Chief Executive Officer</p>
+                    <p class="mt-4">With over 15 years in European real estate, Sarah leads our vision of transforming property transactions across the continent.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop&crop=face" alt="COO">
+                    <h3>Michael Chen</h3>
+                    <p>Chief Operations Officer</p>
+                    <p class="mt-4">Michael oversees our operational excellence, ensuring every client receives world-class service and support.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=120&h=120&fit=crop&crop=face" alt="Head of Sales">
+                    <h3>Emma Rodriguez</h3>
+                    <p>Head of Sales</p>
+                    <p class="mt-4">Emma's expertise in luxury markets and her passion for client success drive our sales team's outstanding performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="max-w-6xl mx-auto">
+            <p>&copy; 2024 Dwello. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-white/70 hover:text-white mx-4">Privacy Policy</a>
+                <a href="#" class="text-white/70 hover:text-white mx-4">Terms of Service</a>
+                <a href="contact.html" class="text-white/70 hover:text-white mx-4">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
