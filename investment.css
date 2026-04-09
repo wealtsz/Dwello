@@ -23,6 +23,8 @@ body {
     color: var(--dark);
     background: #fff;
 }
+
+
 /* ── HEADER ── */
 
 .site-header {
@@ -104,6 +106,8 @@ body {
         display: none!important;
     }
 }
+
+
 /* ── HERO ── */
 
 .invest-hero {
@@ -274,6 +278,8 @@ body {
     display: block;
     margin-top: 5px;
 }
+
+
 /* Floating ticker */
 
 .hero-ticker {
@@ -352,6 +358,8 @@ body {
 .tc-dn {
     color: #f87171;
 }
+
+
 /* ── SECTION TABS ── */
 
 .section-tabs-bar {
@@ -386,6 +394,8 @@ body {
     color: #1a1a1a;
     border-bottom-color: #1a1a1a;
 }
+
+
 /* ── SHARED SECTION STYLES ── */
 
 .sec-label {
@@ -430,6 +440,8 @@ body {
 section {
     scroll-margin-top: 110px;
 }
+
+
 /* ── INVESTMENT ANALYSIS ── */
 
 .analysis-section {
@@ -458,6 +470,8 @@ section {
         gap: 48px;
     }
 }
+
+
 /* Chart mock */
 
 .chart-card {
@@ -495,6 +509,8 @@ section {
 .chart-body {
     padding: 24px;
 }
+
+
 /* SVG chart bars */
 
 .bar-chart {
@@ -538,6 +554,8 @@ section {
     display: block;
     margin-top: 4px;
 }
+
+
 /* Tool list */
 
 .analysis-tools {
@@ -604,6 +622,8 @@ section {
     color: var(--gold);
     transform: translateY(-50%) translateX(3px);
 }
+
+
 /* ── OVERSEAS PROPERTIES ── */
 
 .overseas-section {
@@ -771,6 +791,8 @@ section {
 .overseas-note strong {
     color: var(--dark);
 }
+
+
 /* ── REITs GUIDE ── */
 
 .reits-section {
@@ -966,6 +988,8 @@ section {
     padding: 3px 9px;
     border-radius: 10px;
 }
+
+
 /* ── MARKET REPORTS ── */
 
 .reports-section {
@@ -1143,6 +1167,8 @@ section {
 .report-item:hover .ri-arrow {
     color: var(--gold);
 }
+
+
 /* Subscribe strip */
 
 .subscribe-strip {
@@ -1197,6 +1223,8 @@ section {
 .subscribe-form input:focus {
     border-color: var(--gold);
 }
+
+
 /* ── CTA STRIP ── */
 
 .cta-strip {
@@ -1236,6 +1264,8 @@ section {
     position: relative;
     z-index: 1;
 }
+
+
 /* ── FOOTER ── */
 
 .site-footer {
@@ -1263,6 +1293,8 @@ section {
 .footer-bottom-links a:hover {
     color: #fff;
 }
+
+
 /* ── MOBILE MENU ── */
 
 .mobile-menu {
@@ -1281,6 +1313,8 @@ section {
 .mobile-menu.open {
     transform: translateX(0);
 }
+
+
 /* ── MODAL ── */
 
 .modal-backdrop {
@@ -1412,6 +1446,8 @@ section {
 .mf-submit:hover {
     background: #333;
 }
+
+
 /* PILL */
 
 .pill {
@@ -1435,6 +1471,8 @@ section {
     background: var(--gold);
     flex-shrink: 0;
 }
+
+
 /* ANIMATIONS */
 
 .fade-up {
@@ -1447,6 +1485,8 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
+
 /* WA Float */
 
 .wa-btn-float {
@@ -1470,6 +1510,8 @@ section {
 .wa-btn-float:hover {
     transform: scale(1.08);
 }
+
+
 /* Back to top */
 
 .back-to-top {
